@@ -10,7 +10,6 @@ export default function Calendar(props){
     let [propsYear, propsMonth, propsDay] = propsDate;
 
     const [currentDay] = useState(new Date(`${propsYear},${propsMonth},${propsDay}`));
-    debugger;
 
     return <>
         <div className="calendar">

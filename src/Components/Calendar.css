@@ -8,8 +8,6 @@
   .calendar-header {
     height: 100px;
     width: 100%;
-    display: flex;
-    align-items: center;
     text-align: center;
   }
   
@@ -26,6 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    text-align: center;
   }
   
   .weekday {
@@ -57,7 +56,7 @@
   }
   
   .current p {
-    color: #000000;
+    color: #fff;
   }
   
   .selected p {

@@ -4,7 +4,6 @@ export default function CalendarDays(props){
     let firstDayOfMonth = new Date(props.day.getFullYear(), props.day.getMonth(), 1);
     let weekdayOfFirstDay = firstDayOfMonth.getDay();
     let currentDays = [];
-    debugger;
 
     for (let day = 0; day < 42; day++) {
         if (day === 0 && weekdayOfFirstDay === 0) {
